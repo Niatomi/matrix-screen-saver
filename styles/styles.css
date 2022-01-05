@@ -10,7 +10,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgb(145, 90, 90);
+  background: rgba(0, 0, 0, 1);
   z-index: 1000;
 }
 
@@ -32,6 +32,10 @@ body {
 
 .start-button:hover {
   opacity: 0.9;
+}
+
+.start-button:active {
+  background-color: #86a880;
 }
 
 .start-button:enabled {
