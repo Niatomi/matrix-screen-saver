@@ -1,0 +1,39 @@
+body {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  background: black;
+}
+
+.starter {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(145, 90, 90);
+  z-index: 1000;
+}
+
+.container > p {
+  display: none;
+}
+
+.start-button {
+  position: absolute;
+  float: left;
+  background: black;
+  padding: 15px 20px;
+  color: #fff;
+  border: 5px solid #fff;
+  font-family: inherit;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  opacity: 0.9;
+}
+
+.start-button:enabled {
+  /* color: black; */
+}
