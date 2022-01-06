@@ -1,11 +1,11 @@
 # matrix-screen-saver
 
-Technology stack:
+## Technology stack:
 * HTML
 * CSS
 * JavaScript
 
-Description:
+## Description:
 Make a site that on start button makes something like this, but with more opacity and light changing and imposition of chars:
 
 <p align="center">
